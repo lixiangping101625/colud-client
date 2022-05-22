@@ -58,7 +58,8 @@ public class LogAspect
 
     protected void handleLog(final JoinPoint joinPoint, Log controllerLog, final Exception e, Object jsonResult)
     {
-
+        // TODO: 2022/5/22 操作日志入库
+        System.out.println("执行日志切面逻辑~");
     }
 
     /**

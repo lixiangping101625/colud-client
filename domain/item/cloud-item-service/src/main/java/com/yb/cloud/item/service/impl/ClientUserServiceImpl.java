@@ -1,5 +1,6 @@
 package com.yb.cloud.item.service.impl;
 
+import com.yb.cloud.annotation.Log;
 import com.yb.cloud.api.IClientUserService;
 import com.yb.cloud.item.mapper.ClientUserMapper;
 import com.yb.cloud.item.pojo.ClientUser;
@@ -26,6 +27,7 @@ public class ClientUserServiceImpl implements IClientUserService
     private ClientUserMapper clientUserMapper;
 
     @Override
+    @Log(title = "查询所有用户")
     public AjaxResult queryAll() {
         List<ClientUser> clientUsers = clientUserMapper.queryAll();
         return AjaxResult.success(clientUsers);
