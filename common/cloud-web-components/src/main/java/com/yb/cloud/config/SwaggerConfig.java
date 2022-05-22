@@ -19,6 +19,7 @@ import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.oas.annotations.EnableOpenApi;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
@@ -57,11 +58,12 @@ public class SwaggerConfig {
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
                 // 标题
-                .title("SpringBoot集成Swagger2")
+                .title("愿伴客户端微服务API")
                 // 描述
-                .description("xxx项目接口文档")
+                .description("接口文档")
                 // 文档版本
                 .version("1.0.0")
+                .contact(new Contact("小李飞刀", null, null))
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
                 .build();
