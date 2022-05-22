@@ -1691,3 +1691,94 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2022-05-22 12:09:32.116  INFO 25832 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-05-22 12:14:32.128  INFO 25832 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-05-22 12:19:32.132  INFO 25832 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 18:59:34.235  INFO 19336 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 19336 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 18:59:34.239  INFO 19336 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 18:59:36.084  INFO 19336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 18:59:36.087  INFO 19336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 18:59:36.131  INFO 19336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2022-05-22 18:59:36.548  INFO 19336 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 18:59:36.628  INFO 19336 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 18:59:36.686  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 18:59:36.688  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 18:59:36.689  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 18:59:36.689  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 18:59:36.690  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 18:59:36.690  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 18:59:36.690  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 18:59:36.690  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 18:59:36.690  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 18:59:36.691  INFO 19336 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 18:59:37.096  INFO 19336 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 18:59:37.098  INFO 19336 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 18:59:37.433  INFO 19336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 18:59:37.448  INFO 19336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 18:59:37.449  INFO 19336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 18:59:37.669  INFO 19336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 18:59:37.669  INFO 19336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3351 ms
+2022-05-22 18:59:38.098  INFO 19336 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 18:59:38.244  INFO 19336 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 18:59:40.785  INFO 19336 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 18:59:43.365  INFO 19336 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 18:59:43.455  WARN 19336 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 18:59:43.564  INFO 19336 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 18:59:43.615  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 18:59:43.620  INFO 19336 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 18:59:43.647  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 18:59:43.647  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 18:59:43.647  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 18:59:43.647  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 18:59:43.648  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 18:59:43.648  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 18:59:43.648  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 18:59:45.058  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 18:59:45.061  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 18:59:45.064  INFO 19336 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 18:59:45.069  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653217185068 with initial instances count: 1
+2022-05-22 18:59:45.074  INFO 19336 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 18:59:45.075  INFO 19336 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653217185075, current=UP, previous=STARTING]
+2022-05-22 18:59:45.079  INFO 19336 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 18:59:45.124  INFO 19336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 18:59:45.125  INFO 19336 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 18:59:45.183  INFO 19336 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 18:59:46.742  INFO 19336 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 14.741 seconds (JVM running for 17.045)
+2022-05-22 18:59:48.722  INFO 19336 --- [RMI TCP Connection(3)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 18:59:48.724  INFO 19336 --- [RMI TCP Connection(3)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 18:59:48.727  INFO 19336 --- [RMI TCP Connection(3)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-05-22 19:00:09.541  INFO 19336 --- [http-nio-30001-exec-1] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
+2022-05-22 19:00:09.546  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.552  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.552  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.562  WARN 19336 --- [http-nio-30001-exec-1] c.g.d.core.el.ELExpressionFactory        : javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+2022-05-22 19:00:09.831  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.831  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.832  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.837  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.837  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.838  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.843  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.844  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.845  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.848  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.848  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.849  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.852  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.852  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.852  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.856  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.856  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.857  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.861  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.861  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.862  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.864  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.865  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.865  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.867  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.868  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.868  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.870  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.871  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.871  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:00:09.875  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:00:09.875  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:00:09.876  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.

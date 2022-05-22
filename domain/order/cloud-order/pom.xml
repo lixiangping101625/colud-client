@@ -41,6 +41,12 @@
             <artifactId>cloud-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!--cloud-web-components-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cloud-web-components</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- 阿里数据库连接池 -->
         <dependency>
             <groupId>com.alibaba</groupId>
