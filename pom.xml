@@ -11,7 +11,6 @@
     <modules>
         <module>platform/registe-center</module>
         <module>common/cloud-common</module>
-        <module>domain/order/cloud-order</module>
         <module>common/cloud-sharding-pojo</module>
         <module>common/cloud-web-components</module>
         <module>domain/item/cloud-item-api</module>

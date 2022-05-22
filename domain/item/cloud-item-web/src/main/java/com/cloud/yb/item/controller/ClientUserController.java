@@ -1,20 +1,16 @@
 package com.cloud.yb.item.controller;
 
 import com.yb.cloud.api.IClientUserService;
-import com.yb.cloud.item.pojo.ClientUser;
 import com.yb.cloud.pojo.AjaxResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
-import java.util.List;
 
 /**
  * 客户端用户 Controller

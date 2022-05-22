@@ -1782,3 +1782,403 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2022-05-22 19:00:09.875  INFO 19336 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
 2022-05-22 19:00:09.875  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
 2022-05-22 19:00:09.876  INFO 19336 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:21:55.333  INFO 1432 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 1432 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 19:21:55.337  INFO 1432 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 19:21:57.345  INFO 1432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 19:21:57.348  INFO 1432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 19:21:57.392  INFO 1432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2022-05-22 19:21:57.799  INFO 1432 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 19:21:57.876  INFO 1432 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 19:21:57.934  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 19:21:57.936  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:21:57.936  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:21:57.937  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:21:57.937  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:21:57.937  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:21:57.938  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:21:57.938  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:21:57.938  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:21:57.938  INFO 1432 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:21:58.324  INFO 1432 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 19:21:58.326  INFO 1432 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 19:21:58.663  INFO 1432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 19:21:58.678  INFO 1432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 19:21:58.678  INFO 1432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 19:21:58.889  INFO 1432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 19:21:58.889  INFO 1432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3475 ms
+2022-05-22 19:21:59.288  INFO 1432 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 19:21:59.435  INFO 1432 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 19:22:01.909  INFO 1432 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 19:22:04.435  INFO 1432 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 19:22:04.521  WARN 1432 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 19:22:04.627  INFO 1432 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 19:22:04.670  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 19:22:04.678  INFO 1432 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 19:22:04.703  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:22:04.703  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:22:04.703  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:22:04.704  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:22:04.704  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:22:04.704  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 19:22:04.704  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:22:06.064  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:22:06.067  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 19:22:06.070  INFO 1432 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 19:22:06.077  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653218526075 with initial instances count: 1
+2022-05-22 19:22:06.081  INFO 1432 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 19:22:06.081  INFO 1432 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653218526081, current=UP, previous=STARTING]
+2022-05-22 19:22:06.084  INFO 1432 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:22:06.121  INFO 1432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 19:22:06.122  INFO 1432 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 19:22:06.158  INFO 1432 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:22:07.721  INFO 1432 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 14.707 seconds (JVM running for 16.841)
+2022-05-22 19:22:08.968  INFO 1432 --- [RMI TCP Connection(4)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 19:22:08.969  INFO 1432 --- [RMI TCP Connection(4)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 19:22:08.972  INFO 1432 --- [RMI TCP Connection(4)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-22 19:25:47.400  INFO 1432 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2022-05-22 19:25:47.401  INFO 1432 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653218747401, current=DOWN, previous=UP]
+2022-05-22 19:25:47.401  INFO 1432 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:25:47.414  INFO 1432 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:25:48.334  INFO 1432 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 19:25:48.339  INFO 1432 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-22 19:25:48.341  INFO 1432 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-22 19:25:51.352  INFO 1432 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-22 19:25:51.369  INFO 1432 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - deregister  status: 200
+2022-05-22 19:25:51.374  INFO 1432 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-22 19:26:01.266  INFO 16928 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 16928 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 19:26:01.280  INFO 16928 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 19:26:02.988  INFO 16928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 19:26:02.991  INFO 16928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 19:26:03.030  INFO 16928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-05-22 19:26:03.422  INFO 16928 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 19:26:03.513  INFO 16928 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 19:26:03.568  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 19:26:03.570  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:26:03.570  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:26:03.571  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:26:03.571  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:26:03.571  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:26:03.571  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:26:03.572  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:26:03.572  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:26:03.572  INFO 16928 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:26:03.970  INFO 16928 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 19:26:03.972  INFO 16928 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 19:26:04.304  INFO 16928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 19:26:04.318  INFO 16928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 19:26:04.318  INFO 16928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 19:26:04.524  INFO 16928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 19:26:04.525  INFO 16928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3180 ms
+2022-05-22 19:26:04.928  INFO 16928 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 19:26:05.071  INFO 16928 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 19:26:07.570  INFO 16928 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 19:26:10.022  INFO 16928 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 19:26:10.114  WARN 16928 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 19:26:10.232  INFO 16928 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 19:26:10.274  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 19:26:10.280  INFO 16928 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 19:26:10.306  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:26:10.307  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:26:10.307  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:26:10.307  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:26:10.308  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:26:10.308  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 19:26:10.308  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:26:11.653  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:26:11.657  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 19:26:11.661  INFO 16928 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 19:26:11.666  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653218771665 with initial instances count: 1
+2022-05-22 19:26:11.670  INFO 16928 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 19:26:11.671  INFO 16928 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653218771671, current=UP, previous=STARTING]
+2022-05-22 19:26:11.674  INFO 16928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:26:11.716  INFO 16928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 19:26:11.718  INFO 16928 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 19:26:11.754  INFO 16928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:26:13.317  INFO 16928 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 14.31 seconds (JVM running for 16.654)
+2022-05-22 19:26:14.518  INFO 16928 --- [RMI TCP Connection(2)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 19:26:14.518  INFO 16928 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 19:26:14.520  INFO 16928 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-22 19:28:43.617  WARN 16928 --- [http-nio-30001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://120.27.203.113:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 144946
+2022-05-22 19:28:44.365  INFO 16928 --- [http-nio-30001-exec-1] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
+2022-05-22 19:28:44.369  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.376  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.377  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.385  WARN 16928 --- [http-nio-30001-exec-1] c.g.d.core.el.ELExpressionFactory        : javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+2022-05-22 19:28:44.606  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.607  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.608  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.614  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.614  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.614  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.617  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.619  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.621  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.624  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.624  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.626  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.631  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.631  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.632  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.635  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.635  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.636  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.639  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.639  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.640  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.646  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.646  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.646  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.649  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.649  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.650  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.653  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.653  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.654  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:28:44.656  INFO 16928 --- [http-nio-30001-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-1
+2022-05-22 19:28:44.656  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:28:44.657  INFO 16928 --- [http-nio-30001-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:30:55.011  INFO 16928 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2022-05-22 19:30:55.011  INFO 16928 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219055011, current=DOWN, previous=UP]
+2022-05-22 19:30:55.012  INFO 16928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:30:55.026  INFO 16928 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:30:56.088  INFO 16928 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 19:30:56.094  INFO 16928 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-22 19:30:56.097  INFO 16928 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-22 19:30:59.111  INFO 16928 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-22 19:30:59.126  INFO 16928 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - deregister  status: 200
+2022-05-22 19:30:59.131  INFO 16928 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-22 19:31:43.230  INFO 15776 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 15776 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 19:31:43.235  INFO 15776 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 19:31:45.314  INFO 15776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 19:31:45.317  INFO 15776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 19:31:45.368  INFO 15776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2022-05-22 19:31:45.822  INFO 15776 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 19:31:45.915  INFO 15776 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 19:31:45.988  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 19:31:45.991  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:31:45.991  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:31:45.992  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:31:45.992  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:31:45.992  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:31:45.993  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:31:45.993  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:31:45.993  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:31:45.994  INFO 15776 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:31:46.468  INFO 15776 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 19:31:46.470  INFO 15776 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 19:31:46.864  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 19:31:46.878  INFO 15776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 19:31:46.878  INFO 15776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 19:31:47.118  INFO 15776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 19:31:47.118  INFO 15776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3798 ms
+2022-05-22 19:31:47.617  INFO 15776 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 19:31:47.804  INFO 15776 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 19:31:51.113  INFO 15776 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 19:31:53.971  INFO 15776 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 19:31:54.088  WARN 15776 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 19:31:54.233  INFO 15776 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 19:31:54.279  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 19:31:54.284  INFO 15776 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:31:54.312  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 19:31:54.313  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:31:55.995  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:31:55.998  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 19:31:56.001  INFO 15776 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 19:31:56.007  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653219116006 with initial instances count: 0
+2022-05-22 19:31:56.011  INFO 15776 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 19:31:56.012  INFO 15776 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219116012, current=UP, previous=STARTING]
+2022-05-22 19:31:56.014  INFO 15776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:31:56.089  INFO 15776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:31:56.114  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 19:31:56.116  INFO 15776 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 19:31:57.742  INFO 15776 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 17.107 seconds (JVM running for 20.141)
+2022-05-22 19:31:58.869  INFO 15776 --- [RMI TCP Connection(4)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 19:31:58.869  INFO 15776 --- [RMI TCP Connection(4)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 19:31:58.872  INFO 15776 --- [RMI TCP Connection(4)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-05-22 19:32:26.005  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:32:26.005  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:32:26.005  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:32:26.005  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:32:26.006  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:32:26.006  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-05-22 19:32:26.006  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:32:26.033  INFO 15776 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:32:46.704  INFO 15776 --- [http-nio-30001-exec-3] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
+2022-05-22 19:32:46.708  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.716  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.717  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.723  WARN 15776 --- [http-nio-30001-exec-3] c.g.d.core.el.ELExpressionFactory        : javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+2022-05-22 19:32:46.963  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.964  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.965  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.968  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.968  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.968  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.971  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.971  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.972  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.977  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.978  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.980  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.985  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.985  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.986  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.991  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.992  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.993  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:46.998  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:46.998  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:46.999  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:47.003  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:47.003  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:47.004  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:47.007  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:47.007  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:47.007  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:47.013  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:47.013  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:47.014  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:32:47.017  INFO 15776 --- [http-nio-30001-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 6.5.0, Thread Name: http-nio-30001-exec-3
+2022-05-22 19:32:47.017  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2022-05-22 19:32:47.018  INFO 15776 --- [http-nio-30001-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2022-05-22 19:34:14.921  INFO 15776 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2022-05-22 19:34:14.922  INFO 15776 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219254922, current=DOWN, previous=UP]
+2022-05-22 19:34:14.922  INFO 15776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:34:14.934  INFO 15776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:34:15.845  INFO 15776 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 19:34:15.849  INFO 15776 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-22 19:34:15.851  INFO 15776 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-22 19:34:18.864  INFO 15776 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-22 19:34:18.881  INFO 15776 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - deregister  status: 200
+2022-05-22 19:34:18.886  INFO 15776 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-22 19:34:27.987  INFO 4828 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 4828 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 19:34:27.992  INFO 4828 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 19:34:29.715  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 19:34:29.718  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 19:34:29.757  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2022-05-22 19:34:30.164  INFO 4828 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 19:34:30.239  INFO 4828 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 19:34:30.302  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 19:34:30.304  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:34:30.304  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:34:30.305  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:34:30.305  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:34:30.305  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:34:30.305  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:34:30.306  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:34:30.306  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:34:30.306  INFO 4828 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:34:30.695  INFO 4828 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 19:34:30.697  INFO 4828 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 19:34:31.030  INFO 4828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 19:34:31.042  INFO 4828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 19:34:31.043  INFO 4828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 19:34:31.253  INFO 4828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 19:34:31.254  INFO 4828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3179 ms
+2022-05-22 19:34:31.657  INFO 4828 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 19:34:31.808  INFO 4828 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 19:34:34.285  INFO 4828 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 19:34:36.818  INFO 4828 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 19:34:36.907  WARN 4828 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 19:34:37.048  INFO 4828 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 19:34:37.091  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 19:34:37.098  INFO 4828 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 19:34:37.127  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:34:37.127  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:34:37.127  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:34:37.127  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:34:37.128  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:34:37.128  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 19:34:37.129  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:34:38.463  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:34:38.466  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 19:34:38.470  INFO 4828 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 19:34:38.477  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653219278475 with initial instances count: 1
+2022-05-22 19:34:38.481  INFO 4828 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 19:34:38.482  INFO 4828 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219278482, current=UP, previous=STARTING]
+2022-05-22 19:34:38.484  INFO 4828 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:34:38.527  INFO 4828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 19:34:38.529  INFO 4828 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 19:34:38.563  INFO 4828 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:34:40.131  INFO 4828 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 14.523 seconds (JVM running for 16.546)
+2022-05-22 19:34:42.237  INFO 4828 --- [RMI TCP Connection(2)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 19:34:42.238  INFO 4828 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 19:34:42.240  INFO 4828 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-22 19:36:31.245  INFO 4828 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2022-05-22 19:36:31.245  INFO 4828 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219391245, current=DOWN, previous=UP]
+2022-05-22 19:36:31.246  INFO 4828 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:36:31.260  INFO 4828 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:36:32.353  INFO 4828 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 19:36:32.357  INFO 4828 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-22 19:36:32.360  INFO 4828 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-22 19:36:35.367  INFO 4828 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-22 19:36:35.383  INFO 4828 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - deregister  status: 200
+2022-05-22 19:36:35.388  INFO 4828 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-22 19:36:45.212  INFO 5408 --- [main] com.yb.cloud.EurekaClientApplication     : Starting EurekaClientApplication using Java 1.8.0_144 on DESKTOP-TR39JFO with PID 5408 (F:\丰蓉科技\micro-service\colud-client\domain\order\cloud-order\target\classes started by 风吟虎啸 in F:\丰蓉科技\micro-service\colud-client)
+2022-05-22 19:36:45.217  INFO 5408 --- [main] com.yb.cloud.EurekaClientApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-22 19:36:47.060  INFO 5408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-22 19:36:47.065  INFO 5408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-22 19:36:47.106  INFO 5408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-05-22 19:36:47.575  INFO 5408 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be83b761-7765-3e9c-97cf-d050ae38f0d7
+2022-05-22 19:36:47.663  INFO 5408 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-05-22 19:36:47.725  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-05-22 19:36:47.728  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:36:47.729  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:36:47.730  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:36:47.731  INFO 5408 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-05-22 19:36:48.128  INFO 5408 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-05-22 19:36:48.130  INFO 5408 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-05-22 19:36:48.483  INFO 5408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2022-05-22 19:36:48.504  INFO 5408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 19:36:48.504  INFO 5408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-22 19:36:48.752  INFO 5408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 19:36:48.753  INFO 5408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3463 ms
+2022-05-22 19:36:49.205  INFO 5408 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 19:36:49.364  INFO 5408 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 19:36:51.961  INFO 5408 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-22 19:36:54.612  INFO 5408 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-22 19:36:54.707  WARN 5408 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-22 19:36:54.823  INFO 5408 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-22 19:36:54.873  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-22 19:36:54.880  INFO 5408 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-22 19:36:54.907  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-22 19:36:54.907  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-22 19:36:54.907  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-22 19:36:54.907  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-22 19:36:54.908  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-22 19:36:54.908  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-22 19:36:54.908  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-22 19:36:56.300  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-22 19:36:56.304  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-22 19:36:56.309  INFO 5408 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-22 19:36:56.318  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1653219416317 with initial instances count: 2
+2022-05-22 19:36:56.323  INFO 5408 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER-SERVICE with eureka with status UP
+2022-05-22 19:36:56.323  INFO 5408 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219416323, current=UP, previous=STARTING]
+2022-05-22 19:36:56.328  INFO 5408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:36:56.366  INFO 5408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2022-05-22 19:36:56.367  INFO 5408 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 30001
+2022-05-22 19:36:56.414  INFO 5408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:36:58.016  INFO 5408 --- [main] com.yb.cloud.EurekaClientApplication     : Started EurekaClientApplication in 15.231 seconds (JVM running for 17.719)
+2022-05-22 19:36:59.275  INFO 5408 --- [RMI TCP Connection(2)-192.168.2.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-22 19:36:59.276  INFO 5408 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-22 19:36:59.282  INFO 5408 --- [RMI TCP Connection(2)-192.168.2.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-05-22 19:38:26.890  INFO 5408 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER-SERVICE with eureka with status DOWN
+2022-05-22 19:38:26.891  INFO 5408 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1653219506891, current=DOWN, previous=UP]
+2022-05-22 19:38:26.892  INFO 5408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001: registering service...
+2022-05-22 19:38:26.899  INFO 5408 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - registration status: 204
+2022-05-22 19:38:27.810  INFO 5408 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 19:38:27.815  INFO 5408 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-22 19:38:27.817  INFO 5408 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-22 19:38:30.830  INFO 5408 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-22 19:38:30.846  INFO 5408 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER-SERVICE/DESKTOP-TR39JFO:order-service:30001 - deregister  status: 200
+2022-05-22 19:38:30.850  INFO 5408 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
