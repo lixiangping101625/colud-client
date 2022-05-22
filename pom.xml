@@ -10,11 +10,15 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>platform/registe-center</module>
-        <module>domain/item/cloud-item</module>
         <module>common/cloud-common</module>
         <module>domain/order/cloud-order</module>
         <module>common/cloud-sharding-pojo</module>
         <module>common/cloud-web-components</module>
+        <module>domain/item/cloud-item-api</module>
+        <module>domain/item/cloud-item-pojo</module>
+        <module>domain/item/cloud-item-mapper</module>
+        <module>domain/item/cloud-item-service</module>
+        <module>domain/item/cloud-item-web</module>
     </modules>
 
     <properties>

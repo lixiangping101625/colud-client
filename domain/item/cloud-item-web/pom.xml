@@ -6,17 +6,27 @@
         <artifactId>colud-client</artifactId>
         <groupId>com.yb</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>registe-center</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>cloud-item-web</artifactId>
+    <description>供web页面调用</description>
 
     <dependencies>
-        <!--eureka-server依赖-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cloud-item-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cloud-web-components</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!--添加eureka依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 
@@ -27,7 +37,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!--指定主类-->
-                    <mainClass>com.yb.cloud.EurekaServerApplication</mainClass>
+                    <mainClass>com.cloud.yb.item.ItemApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

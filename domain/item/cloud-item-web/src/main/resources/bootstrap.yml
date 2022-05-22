@@ -1,0 +1,5 @@
+# 注册中心的地址（向单一注册中心进行服务注册，如果有多个注册中心，则会自动同步）
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
